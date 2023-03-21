@@ -87,7 +87,7 @@ function WhoWeAre() {
             <p>/ SEO</p>
             <p>
               {" "}
-              Improve your website's visibility and attract more organic traffic
+              Improve your website&apos;s visibility and attract more organic traffic
               with our proven search engine optimization strategies.
             </p>
           </div>
@@ -95,18 +95,22 @@ function WhoWeAre() {
             <div
               className="box box4"
               onMouseEnter={(e) => {
-                Array.from(e.currentTarget.firstElementChild.children).map(
-                  (child) => {
-                    child.classList.add("animate");
-                  }
-                );
-                Array.from(e.currentTarget.firstElementChild.children).map(
-                  (child) => {
-                    child.classList.remove("fade-out");
-                  }
-                );
+                if(e.currentTarget.firstElementChild){
+                  Array.from(e.currentTarget.firstElementChild.children).map(
+                    (child) => {
+                      child.classList.add("animate");
+                    }
+                  );
+                  Array.from(e.currentTarget.firstElementChild.children).map(
+                    (child) => {
+                      child.classList.remove("fade-out");
+                    }
+                  );
+                }
               }}
               onMouseLeave={(e) => {
+                if(e.currentTarget.firstElementChild){
+
                 Array.from(e.currentTarget.firstElementChild.children).map(
                   (child) => {
                     child.classList.remove("animate");
@@ -117,6 +121,7 @@ function WhoWeAre() {
                     child.classList.add("fade-out");
                   }
                 );
+                }
               }}
             >
               <div className="circle-holder">

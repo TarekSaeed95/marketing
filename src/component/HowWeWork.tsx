@@ -7,16 +7,16 @@ function HowWeWork() {
       <div className="text">
         <p>
           As an agency, we understand that time and budget constraints are a
-          reality for many of our clients. That's why we prioritize the use
+          reality for many of our clients. That&apos;s why we prioritize the use
           of predefined frameworks in our projects. By leveraging proven
           methodologies and established best practices, we are able to
-          deliver high-quality solutions that meet our clients' needs while
+          deliver high-quality solutions that meet our clients&apos; needs while
           minimizing the time and resources required for development.{" "}
         </p>
         <p>
           By leveraging proven methodologies and established best practices,
           we are able to deliver high-quality solutions that meet our
-          clients' needs while minimizing the time and resources required
+          clients&apos; needs while minimizing the time and resources required
           for development. Our focus on efficiency and consistency allows us
           to provide reliable, cost-effective services that help our clients
           achieve their goals.
