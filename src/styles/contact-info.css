@@ -1,0 +1,35 @@
+
+.contact-info{}
+.contact-info .container{
+  padding-block: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info img{
+  width: 150px;
+  margin-bottom: 50px;
+}
+.contact-info .logo-col {font-size: 22px;}
+.contact-info .logo-col p:first-of-type{margin-bottom: 30px;}
+.contact-info .pages{
+  display: flex;
+    justify-content: space-between;
+}
+.contact-info .pages-col{
+  display: flex;
+  margin-right: 100px;
+  gap: 50px;
+}
+.contact-info .head{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.contact-info ul{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+}
+.contact-info .dummy{
+  visibility: hidden;
+}

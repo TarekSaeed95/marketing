@@ -1,0 +1,18 @@
+.footer{
+  background-color: #F0EFEC;
+}
+.footer .container{
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .links{
+  display: flex;
+  gap: 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.footer .copy-right{
+  font-size: 18px;
+}
+

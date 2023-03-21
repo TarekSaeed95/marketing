@@ -1,0 +1,137 @@
+/* -----------BOX ONE----------- */
+@keyframes box1-rect {
+    0%{
+        left: 50px;
+       width: 110px; 
+       height: 110px;
+       top:20px ;
+    }
+    25%{
+        left: 37.5px;
+       width: 170px; 
+       height: 130px;
+       top: 10px;
+    }
+    50%{
+        width: 230px;
+        left: 25px;
+        height: 150px;
+        top: 0px;
+
+    }
+    75%{
+        left: 12.5px;
+       width: 290px; 
+       height: 150px;
+       top: 0px;
+
+    }
+    100%{
+        left: 0px;
+        height: 150px;
+        width: 350px;
+        top: 0px;
+    }
+}
+@keyframes box1-rect-out {
+    100%{
+        left: 50px;
+       width: 110px; 
+       height: 110px;
+       top:20px ;
+    }
+    75%{
+        left: 37.5px;
+       width: 170px; 
+       height: 130px;
+       top: 10px;
+    }
+    50%{
+        width: 230px;
+        left: 25px;
+        height: 150px;
+        top: 0px;
+
+    }
+    25%{
+        left: 12.5px;
+       width: 290px; 
+       height: 150px;
+       top: 0px;
+
+    }
+    0%{
+        left: 0px;
+        height: 150px;
+        width: 350px;
+        top: 0px;
+    }
+}
+@keyframes box1-cir {
+  
+    100%{
+        right: 120px;
+    }
+    0%{
+        right: 50px;
+    }
+}
+@keyframes box1-cir-out {
+  
+    0%{
+        right: 120px;
+    }
+    100%{
+        right: 50px;
+    }
+}
+.who-we-are .box{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;
+    position: relative;
+}
+.who-we-are .box1 .rect{
+    width: 110px;
+    height: 110px;
+    background: #FCE74D;
+}
+.who-we-are .box1 .rect.animate{
+    animation-name: box1-rect;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+}
+.who-we-are .box1 .rect.fade-out{
+    animation-name: box1-rect-out;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+}
+.who-we-are .box1 .circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #EEB93F;
+    position: absolute;
+    right: 50px
+}
+.who-we-are .box1 .circle.animate{
+    animation-name: box1-cir;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+}
+.who-we-are .box1 .circle.fade-out{
+    animation-name: box1-cir-out;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+}
+

@@ -1,0 +1,183 @@
+/* -----------BOX FOUR----------- */
+
+@keyframes box4-circ3 {
+    0%{
+        background: #B5B3B1;
+        top: -54px;
+        left: 0;
+    }
+    100%{
+        top: 21px;
+        left: 81px;
+        background: #FCE74D;
+    }
+}
+@keyframes box4-circ3-out {
+    100%{
+        background: #B5B3B1;
+        top: -54px;
+        left: 0;
+    }
+    0%{
+        top: 21px;
+        left: 81px;
+        background: #FCE74D;
+    }
+}
+@keyframes box4-circ4 {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+@keyframes box4-circ4-out {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes box4-circ2 {
+    0%{
+        right: 0;
+        top: 21px;
+        width: 108px;
+        height: 108px;
+    }
+    100%{
+        width: 188px;
+        height: 94px;
+        border-radius:0 0 94px 94px ;
+        transform: rotatez(-180deg) ;
+        right: 129px;
+        top: 56px;
+        background-color: #B5B3B1;
+
+    }
+}
+@keyframes box4-circ2-out {
+    100%{
+        right: 0;
+        top: 21px;
+        width: 108px;
+        height: 108px;
+
+    }
+    0%{
+        background-color: #B5B3B1;
+
+        width: 188px;
+        height: 94px;
+        border-radius:0 0  94px 94px ;
+        transform: rotatez(-180deg) ;
+        right: 129px;
+        top: 56px;
+    }
+}
+@keyframes box4-circ1 {
+    0%{
+        left: 0;
+        bottom: 21px;
+        width: 108px;
+        height: 108px;
+    }
+    100%{
+        width: 188px;
+        height: 94px;
+        border-radius: 94px 94px 0 0;
+        transform: rotatez(180deg) ;
+        left: 129px;
+        bottom: 56px;
+        background-color: #B5B3B1;
+    }
+}
+@keyframes box4-circ1-out {
+    100%{
+        left: 0;
+        bottom: 21px;
+        width: 108px;
+        height: 108px;
+
+    }
+    0%{
+        width: 188px;
+        height: 94px;
+        border-radius: 94px 94px 0 0;
+        transform: rotatez(180deg) ;
+        left: 129px;
+        bottom: 56px;
+        background-color: #B5B3B1;
+    }
+}
+.who-we-are .box4 {
+    padding:  0px 40px;
+    overflow: hidden;
+}
+.who-we-are .box4 .circle-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+.who-we-are .box4 .circle {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+background-color: #FCE74D;
+}
+.who-we-are .box4 .circle3 {
+    position: absolute;
+    background: #B5B3B1;
+    top: -54px;
+    z-index: 10;
+}
+.who-we-are .box4 .circle3.animate{
+    animation: box4-circ3 ease-out .5s forwards;
+}
+.who-we-are .box4 .circle3.fade-out{
+    animation: box4-circ3-out  ease-out .5s forwards;
+}
+.who-we-are .box4 .circle4 {
+    position: absolute;
+    background: #B5B3B1;
+    bottom: -54px;
+    right: 0;
+}
+.who-we-are .box4 .circle4.animate {
+    animation: box4-circ4 ease-out .5s forwards;
+}
+.who-we-are .box4 .circle4.fade-out {
+    animation: box4-circ4-out ease-out .5s forwards;
+
+}
+.who-we-are .box4 .circle2{
+    position: absolute;
+    right: 0;
+    top: 21px;
+}
+.who-we-are .box4 .circle2.animate{
+animation: box4-circ2 ease-out .5s forwards;
+}
+.who-we-are .box4 .circle2.fade-out{
+    animation: box4-circ2-out ease-out .5s forwards;
+}
+.who-we-are .box4 .circle{
+    position: absolute;
+}
+.who-we-are .box4 .circle1.animate{
+animation: box4-circ1 .5s ease-out forwards;
+}
+.who-we-are .box4 .circle1.fade-out{
+    animation: box4-circ1-out ease-out .5s  forwards;
+ 
+}
+.who-we-are .box4 {
+    
+}

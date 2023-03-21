@@ -1,0 +1,141 @@
+/* -----------BOX TWO----------- */
+@keyframes box2-rects {
+    0%{
+        opacity: 100%;
+        display: flex;
+    }
+    25%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 0%;
+        display: none;
+    }
+}
+@keyframes box2-rects-out {
+    100%{
+        opacity: 100%;
+        display: flex;
+    }
+    75%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    0%{
+        opacity: 0%;
+        display: none;
+    }
+
+}
+@keyframes box2-rects2 {
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes box2-rects2-out {
+    100%{
+        opacity: 0%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 75%;
+
+    }
+    0%{
+        opacity: 100%;
+    }
+}
+.who-we-are .box2{
+padding: 0;
+}
+.who-we-are .box2 .before-animation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation:box2-rects-out ease-out .5s forwards
+
+}
+.who-we-are .box2 .rect{
+    width: 110px;
+    height: 110px;
+    border-radius: 0 0 110px 110px;
+    border-radius: 50%;
+}
+.who-we-are .box2 .rect1{
+    top: -55px;
+    position: relative;
+    background-color: #FCE74D;
+}
+.who-we-are .box2 .rect2{
+    bottom: 10px;
+    position: relative;
+    background-color: #7D1911;
+}
+.who-we-are .box2 .after-animation {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+}
+.who-we-are .box2 .after-animation .rect3{
+    width: 110px;
+    height: 55px;
+    background: teal;
+    border-radius: 0 0 55px 55px;
+    order: 2;
+    background-color: #7D1911;
+}
+.who-we-are .box2 .after-animation .rect4{
+    width: 110px;
+    height: 55px;
+    background: teal;
+    border-radius: 55px 55px 0px 0px;
+    background-color: #FCE74D;
+
+}
+.who-we-are .box2:hover .before-animation{
+    animation:box2-rects .5s forwards
+}
+.who-we-are .box2 .after-animation.animate{
+    animation:box2-rects2 ease-out .5s forwards
+}
+.who-we-are .box2 .after-animation.fade-out{
+    animation:box2-rects2-out ease-out .5s forwards
+}
+

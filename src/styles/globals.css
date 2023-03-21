@@ -1,0 +1,47 @@
+@import  "./navbar.css";
+@import  "./contact.css";
+@import  "./home.css";
+@import  "./how-we-work.css";
+@import  "./our-agency.css";
+@import  "./contact-info.css";
+@import  "./footer.css";
+@import  "./article.css";
+@import "./who-we-are.css";
+*{
+  font-family: 'Urbanist', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  text-transform: capitalize;
+  list-style: none;
+  ;}
+  img{
+    max-width: 100%;
+  }
+  .container{
+  padding: 0px 15px;
+  margin: 0px auto;
+  }
+  .section .container{
+    border-top: 1px solid #DAD9D6;
+  }
+  @media (min-width: 768px) {
+  .container {
+  width: 750px;
+  }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+  .container {
+  width: 970px;
+  }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+  .container {
+  width: 80%;
+  padding-block: 100px;
+  }
+  }
+  .section{
+  }

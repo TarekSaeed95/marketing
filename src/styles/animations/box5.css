@@ -1,0 +1,129 @@
+@keyframes box5-circ1 {
+    0%{
+        left: -54px;
+    }
+    100%{
+        left: 158.5px;
+    }
+}
+@keyframes box5-circ1-out {
+    100%{
+        left: -54px;
+    }
+    0%{
+        left: 158.5px;
+    }
+}
+@keyframes box5-circ2 {
+    0%{
+        right: -54px;
+    }
+    100%{
+        right: 158.5px;
+    }
+}
+@keyframes box5-circ2-out {
+    100%{
+        right: -54px;
+    }
+    0%{
+        right: 158.5px;
+    }
+}
+@keyframes box5-rect {
+    0%{
+        height: 108px;
+        width: 108px;
+    }
+    25%{
+        height: 122px;
+        width: 168.5px;
+    }
+    50%{
+        height: 136px;
+        width: 229px;
+    }
+    75%{
+        height: 150px;
+        width: 289.5;
+    }
+    100%{
+        height: 150px;
+        width: 350px;
+    }
+}
+@keyframes box5-rect-out {
+    100%{
+        height: 108px;
+        width: 108px;
+    }
+    75%{
+        height: 122px;
+        width: 168.5px;
+    }
+    50%{
+        height: 136px;
+        width: 229px;
+    }
+    25%{
+        height: 150px;
+        width: 289.5;
+    }
+   0%{
+        height: 150px;
+        width: 350px;
+    }
+}
+.who-we-are .box5 {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.who-we-are .box5 .circle {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.who-we-are .box5 .circle1 {
+    background: #EEB93F;
+    left: -54px;
+}
+
+.who-we-are .box5 .circle2 {
+    background: #7D1911;
+    right: -54px;
+}
+
+.who-we-are .box5 .rect{
+    width: 108px;
+    height: 108px;
+    background: #FCE74D;
+}
+.who-we-are .box5 .circle1.animate{
+    animation: box5-circ1 .5s ease-out forwards;
+}
+.who-we-are .box5 .circle1.fade-out{
+    animation: box5-circ1-out .5s ease-out forwards;
+}
+.who-we-are .box5 .circle2.animate{
+    animation: box5-circ2 .5s ease-out forwards;
+}
+.who-we-are .box5 .circle2.fade-out{
+    animation: box5-circ2-out .5s ease-out forwards;
+}
+.who-we-are .box5 .rect.animate{
+    animation: box5-rect .5s ease-out forwards;
+}
+.who-we-are .box5 .rect.fade-out{
+    animation: box5-rect-out .5s ease-out forwards;
+}
+.who-we-are {}
+
+.who-we-are {}

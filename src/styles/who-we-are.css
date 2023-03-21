@@ -1,0 +1,37 @@
+@import "./animations/box1.css";
+@import "./animations/box2.css";
+@import "./animations/box3.css";
+@import "./animations/box4.css";
+@import "./animations/box5.css";
+@import "./animations/box6.css";
+.who-we-are h2{
+    font-size: 40px;
+}
+.who-we-are .container{
+    width: 90%;
+    
+}
+.who-we-are .boxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.who-we-are .box-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.who-we-are .box-container p:first-of-type{
+    font-size: 28px;
+}
+.who-we-are .box-container p:last-of-type{
+    color:#555671;
+    line-height:2
+}
+.who-we-are button{
+    display: block;
+    margin-left: auto;
+}

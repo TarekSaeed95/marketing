@@ -1,0 +1,194 @@
+@keyframes box6-circ-out {
+    0%{
+        opacity: 100%;
+    }
+    25%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+@keyframes box6-circ-in {
+    100%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    0%{
+        opacity: 0%;
+    }
+}
+@keyframes box6-circ2-in {
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes box6-circ2-out {
+    100%{
+        opacity: 0%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 75%;
+    }
+    0%{
+        opacity: 100%;
+    }
+}
+@keyframes box6-maincirc-in{
+    from{
+        left: 12px;
+        top: -38.5px;
+        background: #B5B3B1;
+    }
+    to{
+        left: 175px;
+    top: 18px;
+    background: #7D1911
+    }
+}
+@keyframes box6-maincirc-out{
+    from{
+        left: 175px;
+    top: 18px;
+    background: #7D1911
+    }
+    to{
+        left: 12px;
+        top: -38.5px;
+        background: #B5B3B1;
+    }
+
+}
+
+.who-we-are .box6{
+    padding: 0;
+    overflow: hidden;
+}
+.who-we-are .box6 .before-animation{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.who-we-are .box6 .before-animation.fade-in{
+    animation: box6-circ-in .5s ease-out forwards;
+}
+.who-we-are .box6 .before-animation.fade-out{
+    animation: box6-circ-out .5s ease-out forwards;
+}
+.who-we-are .circle{
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    background: #EEB93F;
+    border-radius: 50%;
+    z-index: 10;
+}
+.who-we-are .box6 .before-animation .circle1{
+    left: -34px;
+    bottom: -3px;
+}
+.who-we-are .box6 .before-animation .circle2{
+    left: 58px;
+    bottom: -83px;
+}
+.who-we-are .box6 .before-animation .circle3{
+    left: 104px;
+    top: 0;
+}
+.who-we-are .box6 .before-animation .circle4{
+    left: 196px;
+    top: 21px;
+}
+.who-we-are .box6 .before-animation .circle5{
+    left: 288px;
+    top: 81px;
+    background: #B5B3B1;
+}
+.who-we-are .box6 .before-animation .circle6{
+    left: 242px;
+    top: -19px;
+    background: #B5B3B1;
+}
+.who-we-are .box6 .before-animation .circle7{
+    left: 150px;
+    top: 61px;
+    background: #7D1911
+}
+
+.who-we-are .box6 .after-animation{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+}
+.who-we-are .box6 .after-animation.fade-in{
+    animation: box6-circ2-in .5s ease-out forwards;
+}
+.who-we-are .box6 .after-animation.fade-out{
+    animation: box6-circ2-out .5s ease-out forwards;
+}
+.who-we-are .box6 .after-animation .circle1{
+    top: 21px;
+    left: -54px;
+}
+.who-we-are .box6 .after-animation .circle2{
+    top: 21px;
+    left: 61px;
+    background-color: #B5B3B1;
+}
+.who-we-are .box6 .after-animation .circle3{
+    top: 21px;
+    right: -54px;
+}
+
+.who-we-are .box6 .circle-main{
+    left: 12px;
+    top: -38.5px;
+    background: #B5B3B1;
+}
+.who-we-are .box6 .circle-main.animate-in{
+    animation:  box6-maincirc-in .5s ease-out forwards;
+}
+.who-we-are .box6 .circle-main.animate-out{
+    animation:  box6-maincirc-out .5s ease-out forwards;
+
+}
+
+
+
+.who-we-are{}
+.who-we-are{}
+.who-we-are{}

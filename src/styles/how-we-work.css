@@ -1,0 +1,24 @@
+.how-we-work{
+}
+.section h2{
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.how-we-work .text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.how-we-work .btn{
+  margin-left: auto;
+  display: block;
+  margin-top: 50px;
+}
+.how-we-work p{
+  line-height: 2;
+  color: #555671;
+  font-size: 16px;
+}

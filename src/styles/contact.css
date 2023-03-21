@@ -1,0 +1,78 @@
+.contact{
+  background-color: #F0EFEC;
+}
+.contact .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-block: 150px 80px;
+  position: relative;
+}
+.contact .text{
+  width: 350px;
+  margin-left: 100px;
+  max-width: 100%;
+}
+.contact .text .title{
+  font-size: 60px;
+  margin-bottom: 50px;
+
+}
+.contact .images-holder{
+  width: 663px;
+  position: relative;
+max-width: 100%;
+}
+.contact .images-holder img{
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+.contact .vectors{
+  width: 663px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    height: 470px;
+    z-index: 10;
+}
+.contact  .circle1{
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  opacity: 70%;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  right: 100px;
+  z-index: 10;
+}
+.contact .triangle{
+  width: 0;
+  height: 0;
+  border-bottom: 300px solid #7D1911;
+  border-left: 300px solid transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.contact .circle2{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background: #EEB93F;
+  position: absolute;
+  bottom: -40px;
+  left: -25px;
+}
+.contact .cutter{
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

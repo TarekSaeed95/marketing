@@ -1,0 +1,155 @@
+/* -----------BOX THREE----------- */
+@keyframes box3-rects {
+    0%{
+        opacity: 100%;
+        display: flex;
+    }
+    25%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 0%;
+        display: none;
+    }
+}
+@keyframes box3-rects-out {
+    100%{
+        opacity: 100%;
+        display: flex;
+    }
+    75%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    0%{
+        opacity: 0%;
+        display: none;
+    }
+
+}
+@keyframes box3-rects2 {
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes box3-rects2-out {
+    100%{
+        opacity: 0%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    25%{
+        opacity: 75%;
+
+    }
+    0%{
+        opacity: 100%;
+    }
+}
+.who-we-are .box.box3{
+    padding: 0px;
+}
+.who-we-are .box3{
+    overflow: hidden;
+}
+.who-we-are .box3 .before-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 19px 66px;
+    animation:box3-rects-out .5s forwards
+}
+.who-we-are .before-animation .rect{
+    width: 108px;
+    height: 108px;
+position: relative;
+}
+.who-we-are .box3 .before-animation .rect1{
+
+    background: #B5B3B1;
+}
+.who-we-are .box3 .before-animation .rect2{
+
+    background: #EEB93F;
+    left: -54px;
+}
+.who-we-are .box3 .before-animation .rect3{
+    background: #7D1911;
+    left: -108px;
+}
+.who-we-are .box3 .after-animation{
+padding: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+overflow: hidden;
+position: absolute;
+height: 100%;
+opacity: 0;
+}
+.who-we-are .box3 .after-animation .rect{
+    width: 110px;
+    height: 110px;
+    border-radius: 0 0 110px 110px;
+    border-radius: 50%;
+}
+.who-we-are .box3 .after-animation .rect1{
+    top: -55px;
+    background-color: #B5B3B1;
+    position: absolute;
+    right: 0;
+
+}
+.who-we-are .box3 .after-animation .rect2{
+    background-color: #EEB93F;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+}
+.who-we-are .box3 .after-animation .circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #7D1911;
+}
+.who-we-are .box3:hover .before-animation{
+    animation:box3-rects .5s forwards
+}
+
+.who-we-are .box3 .after-animation.animate{
+    animation:box3-rects2  ease-out .5s forwards
+}
+.who-we-are .box3 .after-animation.fade-out{
+    animation: box3-rects2-out ease-out .5s forwards;
+}
+

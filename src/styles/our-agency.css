@@ -1,0 +1,44 @@
+.our-agency{
+  
+}
+.our-agency h2{
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.our-agency .bot-area{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url("/our-agency.png");
+  background-size: cover;
+}
+.our-agency .text{
+  margin-bottom: 150px;
+  margin-top: 80px;
+}
+.our-agency .bot-area .left-area img{
+  width: 475px;
+}
+.our-agency .bot-area .right-area img{
+width: 640px;
+}
+.our-agency .bot-area p{
+  width: 400px;
+  line-height: 2;
+  color: #555671;
+  font-size: 16px;
+
+}
+.our-agency .left-area{
+}
+.our-agency .right-area{
+  padding-top:50px;
+}
+.our-agency .right-area p{
+  margin-left: auto;
+}
+.our-agency .btn{
+  display: block;
+  margin-left: auto;
+}

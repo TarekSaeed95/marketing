@@ -1,0 +1,100 @@
+.home-page{
+}
+.home-page .container{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0px;
+  padding-right: 0px;
+  width: 100%;
+  border:0;
+  padding-top: 0;
+  }
+  .home-page .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  margin-left: 100px;
+  
+}
+.text .title{
+  font-size: 30px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+.home-page .text p{
+  margin-bottom: 30px;
+  line-height: 2;
+  color: #555671;
+  font-size: 16px;
+}
+.text .btn-holder{
+display: flex;
+  justify-content: space-between;
+}
+.btn{
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 0;
+  width: 230px;
+  height: 50px;
+}
+.text .btn-red{
+background-color: #7D1911;
+color: white;
+}
+.btn-white{
+background-color: white;
+border: 2px solid black;
+}
+.images-holder{
+}
+.home-page .images-holder img:first-of-type{
+width: 420px;
+right: 80px;
+  display: block;
+position: relative;
+}
+.home-page .images-holder img:nth-of-type(2){
+display: block;
+position: relative;
+object-fit: contain;
+height: 393px;
+top: 25px;}
+.vectors{
+position: absolute;
+  z-index: -1;
+  right: 0;  }
+.home-page .vectors .rects{
+display: flex;
+}
+.home-page .vectors .rect{
+width: 330px;
+height: 360px;
+background-color: #C4C4C4;
+}
+.home-page .vectors .rect-two{
+height: 198px;
+width: 274px;
+background-color: #FCE74D;
+position: relative;
+top: 50px;}
+
+.home-page .vectors .triangle{
+width: 0;
+  height: 0;
+  border-bottom: 300px solid #fce74d;
+  border-right: 300px solid transparent;
+  position: relative;
+  top: 225px;
+}
+.home-page .vectors .circle{
+width: 100px;
+height: 100px;
+background: #E49B38;
+border-radius: 50%;
+position: absolute;
+right: -170px;
+}
