@@ -18,7 +18,13 @@ function OurAgency() {
           <img src="agency1.png" alt="" />
         </div>
         <div className="right-area">
+          <div className="image-holder">
           <img src="agency2.png" alt="" />
+        <span className="circle2">
+          
+          </span>
+
+          </div>
           <div className="text">
             <p>
               At AFDV, our mission goes beyond just serving our customers;
@@ -30,6 +36,10 @@ function OurAgency() {
               social responsibility is deeply ingrained in everything we do,
               and we strive to make a meaningful difference in the world
               through our work.
+              <span className="circle">
+          
+          </span>
+  
             </p>
           </div>
         </div>

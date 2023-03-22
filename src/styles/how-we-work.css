@@ -1,7 +1,7 @@
 .how-we-work{
 }
 .section h2{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -22,3 +22,14 @@
   color: #555671;
   font-size: 16px;
 }
+@media (max-width: 600px) {
+  .how-we-work.section{
+    text-align: center;
+  }
+  .how-we-work .text{
+    flex-direction: column;
+  }
+}
+  @media (max-width: 992px) {
+ 
+  }
